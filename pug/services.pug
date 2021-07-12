@@ -1,0 +1,66 @@
+extend index
+
+block website_title
+    title relax | services
+
+block home_block
+    div(class="breadcrumb-area")
+        div(class="container")
+            nav(aria-label="breadcrumb")
+                ol(class="breadcrumb")
+                    li(class="breadcrumb-item")
+                        a(href="#") Home
+                    li(class="breadcrumb-item active", aria-current="page") services
+    //track your shipping
+    section(class="track-shipping ptb_space")
+        div(class="track-content")
+            div(class="container")
+                div(class="row")
+                    div(class="col-lg-5")
+                        div(class="tracking-image")
+                            img(src="http://qesco.themezinho.net/wp-content/uploads/2020/10/video-thumb.jpg", class="img-fluid" alt="Image")
+                    div(class="col-lg-7")
+                        div(class="track-form")
+                            div(class="inner")
+                                form(method="post" action="")
+                                    input(type="hidden", id="", name="", value="")
+                                    h3 Track your shipment
+                                    div(class="ex-number") Ex: 12345 
+                                    div(class="form-group")
+                                        input(class="track-input", type="text", name="", value="", autocomplete="off", placeholder="Enter Tracking Number", required="")
+                                    div(class="form-group")
+                                        button(class="track-button" name="wpcargo-submit", type="submit")
+                                            i(class="lni lni-search-alt")
+                                            | SEARCH
+    //services boxes
+    section(class="services ptb_space")
+        div(class="services-content")
+            div(class="container")
+                div(class="title")
+                    h2 Everyone within our business
+                    p It means we don’t just come to work to do a job, we come to work to make a difference.
+                div(class="row")
+                    div(class="col-lg-4 box")
+                        div(class="services-box")
+                            div(class="inner-box")
+                                div(class="services-image")
+                                    img(src="images/services/01.png", alt="")
+                                h2(class="services-title") Leadership
+                                p Experts who have extensive, hands-on experience in supply chain management
+                                a(href="#", class="services-button") Connect with an Expert
+                    div(class="col-lg-4 box")
+                        div(class="services-box")
+                            div(class="inner-box")
+                                div(class="services-image")
+                                    img(src="images/services/02.png", alt="")
+                                h2(class="services-title") Technology
+                                p Experts who have extensive, hands-on experience in supply chain management
+                                a(href="#", class="services-button") Connect with an Expert
+                    div(class="col-lg-4 box")
+                        div(class="services-box")
+                            div(class="inner-box")
+                                div(class="services-image")
+                                    img(src="images/services/03.png", alt="")
+                                h2(class="services-title") Solution
+                                p Experts who have extensive, hands-on experience in supply chain management
+                                a(href="#", class="services-button") Connect with an Expert

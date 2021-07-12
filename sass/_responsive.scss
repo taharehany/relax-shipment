@@ -1,0 +1,133 @@
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    .track-shipping {
+        .track-content {
+            .tracking-image {
+                // margin-bottom: 25px;
+            }
+
+            .track-form {
+                padding: 50px;
+                width: 100%;
+
+                &::before,
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .about-us {
+        .about-content {
+            .about-text {
+                padding: 0;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .services {
+        .services-content {
+            .services-box {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    html[dir=rtl] {}
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        h2 {
+            font-size: 26px;
+        }
+    }
+
+    .breadcrumb-area {
+        .breadcrumb-item {
+            font-size: 20px;
+        }
+    }
+
+    main {
+        .main-slider {
+            .item {
+                text-align: center;
+
+                .slider-descripton {
+                    .slider-title {
+                        font-size: 40px;
+                    }
+
+                    .slider-text {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .about-us {
+        .about-content {
+            .about-text {
+                h2 {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+
+    .contact-info-area {
+        .contact-info {
+            padding: 15px;
+
+            .contact-title {
+                font-size: 18px;
+            }
+
+            .info {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .contact-form-area {
+        .contact-form {
+            padding: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {}
+
+@media screen and (max-width: 575px) {
+    .request-form-area {
+        .request-form {
+            padding: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 400px) {
+    .error404 {
+        .error-content {
+            h2 {
+                font-size: 100px;
+            }
+
+            p {
+                font-size: 24px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 8px 30px;
+            }
+        }
+    }
+}

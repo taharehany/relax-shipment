@@ -1,0 +1,63 @@
+extend index
+
+block website_title
+    title relax | contact
+
+block home_block
+    div(class="breadcrumb-area")
+        div(class="container")
+            nav(aria-label="breadcrumb")
+                ol(class="breadcrumb")
+                    li(class="breadcrumb-item")
+                        a(href="#") Home
+                    li(class="breadcrumb-item active", aria-current="page") contact
+    //contact info
+    section(class="contact-info-area ptb_space")
+        div(class="container")
+            div(class="title")
+                h2 We’d love to hear from you
+                p Please send your enquiry to 
+                    a(href="mailto:sales@test.com") sales@test.com
+                    | , or contact your local
+                    br
+                    | specialists using the contact details below.
+            div(class="contact-content")
+                div(class="row")
+                    div(class="col-lg-12 box")
+                        div(class="contact-info")
+                            h2(class="contact-title") Hull Office (Head Office)
+                            div(class="info")
+                                p Matthew Good House, Bridgehead Business Park
+                            div(class="info") Phone:
+                                a(href="tel:01208544442") 01208544442 
+                                | -
+                                a(href="tel:01208544442") 01208544442 
+                                | -
+                                a(href="tel:01208544442") 01208544442
+                            div(class="info") Hot Line:
+                                a(href="tel:01208544442") 01208544442
+                            div(class="info") Email:
+                                a(href="mailto:shipping@test.com") shipping@test.com
+                            div(class="info") Fax:
+                                a 0222410007
+    //contact form
+    section(class="contact-form-area ptb_space pb-0")
+        div(class="container")
+            div(class="contact-form")
+                form(action="") 
+                    div(class="row")
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                input(type="text", class="form-control"  placeholder="Name" required)
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                input(type="number", class="form-control"  placeholder="Mobile" required)
+                        div(class="col-lg-12")
+                            div(class="form-group")
+                                input(type="email", class="form-control"  placeholder="Email" required)
+                        div(class="col-lg-12")
+                            div(class="form-group")
+                                textarea(placeholder="Message" class="form-control" rows="6")
+                        div(class="form-group col-12")
+                            input(type="submit", value="SEND MESSAGE")
+    iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.37709964788!2d31.223444820824472!3d30.059483810319847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1626062114610!5m2!1sen!2seg", width="100%", height="500", style="border:0;", allowfullscreen="", loading="lazy")

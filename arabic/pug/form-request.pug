@@ -1,0 +1,65 @@
+extend index
+
+block website_title
+    title relax | form request
+
+block home_block
+    div(class="breadcrumb-area")
+        div(class="container")
+            nav(aria-label="breadcrumb")
+                ol(class="breadcrumb")
+                    li(class="breadcrumb-item")
+                        a(href="#") Home
+                    li(class="breadcrumb-item active", aria-current="page") form request
+    //form request
+    section(class="request-form-area ptb_space")
+        div(class="container")
+            div(class="title")
+                h2 send your request
+                p Please send your enquiry to us
+            div(class="request-form")
+                form(action="") 
+                    div(class="row")
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                label Client Name
+                                input(type="text", class="form-control"  placeholder="Client Name" required)
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                label Company Name
+                                input(type="text", class="form-control"  placeholder="Company Name" required)
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                label City
+                                input(type="text", class="form-control"  placeholder="City" required)
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                label Address
+                                input(type="text", class="form-control"  placeholder="Address" required)
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                label Mobile
+                                input(type="number", class="form-control"  placeholder="Mobile" required)
+                        div(class="col-lg-6")
+                            div(class="form-group")
+                                label Whatsapp
+                                input(type="number", class="form-control"  placeholder="Whatsapp")
+                        div(class="col-lg-12")
+                            div(class="form-group")
+                                label Email
+                                input(type="email", class="form-control"  placeholder="Email")
+                        div(class="col-lg-12")
+                            div(class="form-group")
+                                label Shipment Kind
+                                input(type="text", class="form-control"  placeholder="Shipment Kind")
+                        div(class="col-lg-12")
+                            div(class="form-group")
+                                label purpose of request
+                                select(name="" class="form-select") 
+                                    option(value="" disablled selected) option
+                                    option(value="") option
+                                    option(value="") option
+                                    option(value="") option
+                        div(class="col-12")
+                            div(class="form-group")
+                                input(type="submit", value="SEND request")
